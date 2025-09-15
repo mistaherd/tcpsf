@@ -1,3 +1,4 @@
+#tests/ folder 
 add_executable(test_myproject test_tcpsf.c)
 
 
