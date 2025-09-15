@@ -1,2 +1,3 @@
 set(SOURCES TCPSF.c )
 add_executable(myproject ${SOURCES})
+target_include_directories(myproject PUBLIC ../include)
