@@ -1,0 +1,4 @@
+set(SOURCES 
+   TCPSF.c
+)
+add_executable(myproject ${SOURCES})
