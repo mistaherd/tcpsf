@@ -1,4 +1,4 @@
 #src/ folder
-set(SOURCES TCPSF.c )
-add_executable(myproject ${SOURCES})
-target_include_directories(myproject PUBLIC ../include)
+set(SOURCES tcpsf.c )
+add_library(myproject ${SOURCES})
+target_include_directories(myproject PUBLIC ${CMAKE_CURRENT_LIST_DIR}/../include)
