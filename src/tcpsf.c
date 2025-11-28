@@ -73,7 +73,8 @@ int8_t main(int8_t argc,char * argv[]){
       }
    // remember argc 
    return 0;
-}f (argc<2){
+}
+if (argc<2){
       printf("\n \033[31mError \33[0m: Usage %s <command>\n",argv[0]);
       return 1;
    }
